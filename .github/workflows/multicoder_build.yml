@@ -27,7 +27,7 @@ jobs:
       - name: Build Multicoder EXE
         run: |
           pip install pyinstaller
-          pyinstaller --onefile multicoder_gui.py --name Multicoder
+             pyinstaller --onefile MCoder/multicoder_gui.py --name Multicoder
 
       - name: Archive build artifact
         uses: actions/upload-artifact@v4
